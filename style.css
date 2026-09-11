@@ -1,0 +1,106 @@
+h1 {
+    color: rgb(4, 0, 255);
+}
+
+h2 {
+    color: rgb(255, 72, 221);
+    box-shadow: 5px 5px 5px #888888;
+}
+
+h3{
+    color: red
+}
+
+.button{
+font-size: 14px;
+color: pink;
+text-decoration: none;
+} /*Class*/
+
+#button1{
+font-size: 14px;
+color: pink;
+text-decoration: none;
+background-color: blue;
+}/*id*/
+
+p{
+    border: 2px dotted #000000;
+}
+
+h1{
+    border-style: dashed;
+    border-width: 5px;
+}
+
+h2{
+    border-style: groove;
+    border-width: 5px;
+}
+
+h3{
+    font-size: 20px;
+font-family: verdana;
+}
+
+strong{
+    text-decoration: underline;
+    font-size: 20px;
+}
+
+/*These are things I like*/
+
+ul{
+    color:rgb(248, 184, 20);
+    font-size: 22px;
+    line-height: 1.5;
+    list-style-type: circle;
+}
+
+/*Things I do in my day*/
+p2{
+    text-decoration: wavy overline;
+    font-size: 20px;
+    display: block;
+
+}
+
+ol{
+    color:#02aca9;
+    font-size: 20px;
+    line-height: 1.5;
+    list-style-type: upper-roman;
+}
+img{
+ border-radius: 50px;
+ border: solid #ffa600;
+}
+
+p1{
+    border: 2px solid #445aff;
+}
+
+p3{
+    text-decoration: wavy underline;
+    line-height: 3;
+    margin: 12px;
+    display: block;
+
+}
+
+p4{
+    display: block;
+
+}
+
+img{
+box-shadow: 10px 10px 10px #888888;}
+
+button{
+    color: #f5ffa8;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 13px;
+box-shadow: 5px 5px 5px #330aff;
+}
