@@ -1,106 +1,78 @@
-h1 {
-    color: rgb(4, 0, 255);
+.bigsquare{
+    width: 500px;
+    height: 500px;
+    background-color: #daff89;
+    border-width: solid;
+    position: absolute;
 }
 
-h2 {
-    color: rgb(255, 72, 221);
-    box-shadow: 5px 5px 5px #888888;
+.square1 {
+    width: 170px;
+    height: 170px;
+    background-color: #08783F;
+    position: relative;
+    top: 100px;
+    left: 80px;
 }
 
-h3{
-    color: red
+.square2 {
+    width: 170px;
+    height: 170px;
+    background-color: #70C83E;
+    position: relative;
+    bottom: 70px;
+    left: 250px;
+}
+.square3 {
+    width: 170px;
+    height: 170px;
+    background-color: #B7E31A;
+    position: relative;
+    bottom: 70px;
+    left: 250px;
 }
 
-.button{
-font-size: 14px;
-color: pink;
-text-decoration: none;
-} /*Class*/
-
-#button1{
-font-size: 14px;
-color: pink;
-text-decoration: none;
-background-color: blue;
-}/*id*/
-
-p{
-    border: 2px dotted #000000;
+.square4 {
+    width: 170px;
+    height: 170px;
+    background-color: #00B517;
+    position: relative;
+    bottom: 240px;
+    left: 80px;
 }
 
-h1{
-    border-style: dashed;
-    border-width: 5px;
+.square5{
+    width: 110px;
+    height: 110px;
+    background-color: #bb0000;
+    position: relative;
+    bottom: 520px;
+    left: 140px;
 }
 
-h2{
-    border-style: groove;
-    border-width: 5px;
+.square6{
+    width: 110px;
+    height: 110px;
+    background-color: #ec2727;
+    position: relative;
+    bottom: 520px;
+    left: 140px;
 }
 
-h3{
-    font-size: 20px;
-font-family: verdana;
+.square7{
+    width: 110px;
+    height: 110px;
+    background-color: #cd3e34;
+    position: relative;
+    bottom: 740px;
+    left: 250px;
 }
 
-strong{
-    text-decoration: underline;
-    font-size: 20px;
-}
-
-/*These are things I like*/
-
-ul{
-    color:rgb(248, 184, 20);
-    font-size: 22px;
-    line-height: 1.5;
-    list-style-type: circle;
-}
-
-/*Things I do in my day*/
-p2{
-    text-decoration: wavy overline;
-    font-size: 20px;
-    display: block;
-
-}
-
-ol{
-    color:#02aca9;
-    font-size: 20px;
-    line-height: 1.5;
-    list-style-type: upper-roman;
-}
-img{
- border-radius: 50px;
- border: solid #ffa600;
-}
-
-p1{
-    border: 2px solid #445aff;
-}
-
-p3{
-    text-decoration: wavy underline;
-    line-height: 3;
-    margin: 12px;
-    display: block;
-
-}
-
-p4{
-    display: block;
-
-}
-
-img{
-box-shadow: 10px 10px 10px #888888;}
-
-button{
-    color: #f5ffa8;
-    border: none;
-    border-radius: 5px;
-    cursor: pointer;
-    font-size: 13px;
-box-shadow: 5px 5px 5px #330aff;
+.square8{
+    width: 110px;
+    height: 110px;
+    background-color: #ff756b;
+    position: relative;
+    bottom: 740px;
+    left: 250px;
 }
